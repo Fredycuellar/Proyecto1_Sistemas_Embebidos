@@ -1,16 +1,25 @@
-#! /bin/bash
 
-    # Script para subir y bajar un pin. 
-    # para la demostracion descomente los sleep y conecte la salida a un led.
-    
-    gpio mode 0 out
-    
-    echo "Ejecutando el script  .... para detener presione Ctrl + c"
-    
-    while true
-    do
-     gpio write 0 1
-     sleep 1
-     gpio write 0 0
-     sleep 1
-    done
+  #include <bcm2835.h>
+  #include <stdio.h>
+
+  #define LED RPI_GPIO_P1_11
+  #define Delay 500
+
+
+  int main(int argc, char **argv)
+  {
+    if (!bcm2835_init()) //Inicializa la libreria
+    return 1;
+
+    bcm2835_gpio_fsel(LED,BCM2835_GPIO_FSEL_OUTP); //Configura el pin como salida
+
+    while (1)
+    {
+        bcm2835_gpio_write(LED, HIGH);  // Sube el pin - prende el led
+        bcm2835_delay(Delay);           // espera un momento
+        bcm2835_gpio_write(LED, LOW);   //Baja el pin Apaga el led
+        bcm2835_delay(Delay);           // Espera un momento
+    }
+    bcm2835_close();
+    return 0;
+    }
