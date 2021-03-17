@@ -4,5 +4,5 @@ EL presente proyecto consiste en subir y bajar un pin GPIO con lenguajes (C/C++,
 El proyecto cumple con dos objetivos, el primero es comparar la frecuencia de conmutación de un pin de GPIO de una tarjeta de desarrollo raspberry pi, al programar la activación o desactivación (subida / bajada) del pin en tres lenguajes de programación diferentes( C/C++, Python o Bash) y el segundo es el de utilizar periféricos externos de la tarjeta para medir mediante un sensor one wire la variable de medida del sensor y posteriormente guardar esta información en un archivo .csv cada determinado tiempo.\\
 
 La conexión para el primer objetivo, para realizar la prueba se realiza el montaje con un led, teniendo en cuenta que la tarjeta raspberry Pi 2 Model B V1.1:
-
                         
+                          ![Montajeled](https://user-images.githubusercontent.com/80786325/111538506-c6e9dc00-873a-11eb-8e55-2b5e0f72fc8f.PNG)
