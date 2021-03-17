@@ -26,6 +26,7 @@ gcc -o led gpio_led.c -l wiringPi
 ./led
 
 **Para ejecutar los códigos de Python en consola se realiza lo siguiente:**
+
 python3 ./led.py
 
 **Para ejecutar los códigos de bash en consola se realiza lo siguiente:**
