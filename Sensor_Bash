@@ -1,0 +1,8 @@
+#!/bin/bash
+TT="$(echo "scale=3; `cat /sys/bus/w1/devices/28-3c01d0756794/w1_slave | tail  -n 1 | cut -d " " -f10  | tr -cd '[[:digit:]]' `/1000" | bc -l )"
+DATE=$(date +%Y-%m-%d" "%H:%M) 
+echo $DATE $TT
+DY=$(date +%Y)
+DM=$(date +%m)
+FILE="DS_DATA_"$DY"_"
+echo $DATE" "$TT >> $FILE
