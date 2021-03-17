@@ -20,6 +20,17 @@ A continuación, se indica la programación implementada para el primer objetivo
 | Python | [Python](https://github.com/Fredycuellar/Proyecto1_Sistemas_Embebidos/blob/5f52e727b520e943d16d735efebd35be09166315/Python)  |
 |bash | [Bash](https://github.com/Fredycuellar/Proyecto1_Sistemas_Embebidos/blob/d43c243f8bea0d57bbbf3a5e0e3c35a0b7ee1acd/Bash) |
 
+Para ejecutar el código de C en consola se realiza lo siguiente:
+
+gcc -o led gpio_led.c -l wiringPi
+./led
+
+Para ejecutar los códigos de Python en consola se realiza lo siguiente:
+python3 ./led.py
+
+Para ejecutar los códigos de bash en consola se realiza lo siguiente:
+
+bash ./led.sh
 
 A continuación, se indica la programación implementada para el segundo objetivo:
 
@@ -27,3 +38,5 @@ A continuación, se indica la programación implementada para el segundo objetiv
 | ------------- | ------------- |
 |Bash  | [Aplicación Sensor en Bash](https://github.com/Fredycuellar/Proyecto1_Sistemas_Embebidos/blob/a044cc04f32c177029d4b6a671705c3089545bdf/Sensor_Bash) |
 
+Para ejecutar el código de C en consola se realiza lo siguiente:
+bash ./sensor.sh
