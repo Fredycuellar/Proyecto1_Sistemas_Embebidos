@@ -5,4 +5,4 @@ El proyecto cumple con dos objetivos, el primero es comparar la frecuencia de co
 
 La conexión para el primer objetivo, para realizar la prueba se realiza el montaje con un led, teniendo en cuenta que la tarjeta raspberry Pi 2 Model B V1.1:
                         
-                          ![Montajeled](https://user-images.githubusercontent.com/80786325/111538506-c6e9dc00-873a-11eb-8e55-2b5e0f72fc8f.PNG)
+![Montajeled](https://user-images.githubusercontent.com/80786325/111538703-01537900-873b-11eb-9fce-9075bfeef7d4.PNG)
