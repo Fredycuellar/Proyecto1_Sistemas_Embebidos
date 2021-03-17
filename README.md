@@ -13,6 +13,16 @@ La conexión del sensor ds18b20,en la tarjeta raspberry Pi 2 Model B V1.1, es el
 
 Acontinuación se indica la programación implementada:
 
-Para 
+| Lenguaje      | Programa |
+| ------------- | ------------- |
+| C/C++, libreria Wiring Pi  | Contenido de la celda  |
+| C/C++, libreria BCM | Contenido de la celda  |
+| Python | Contenido de la celda  |
+|bash | Contenido de la celda  |
+
+
+
+
+
                    
 
