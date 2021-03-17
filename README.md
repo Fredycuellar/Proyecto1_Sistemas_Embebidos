@@ -15,8 +15,8 @@ A continuación, se indica la programación implementada para el primer objetivo
 
 | Lenguaje      | Programa |
 | ------------- | ------------- |
-| C/C++, libreria Wiring Pi  | https://github.com/Fredycuellar/Proyecto1_Sistemas_Embebidos/blob/main/Montajeled.PNG |
-| C/C++, libreria BCM | Contenido de la celda  |
+| C/C++, libreria Wiring Pi  | https://github.com/Fredycuellar/Proyecto1_Sistemas_Embebidos/blob/94931f9a6c48a0345d5b23ea3d00ba4b70d7f1ef/WiringPi |
+| C/C++, libreria BCM |   |
 | Python | Contenido de la celda  |
 |bash | Contenido de la celda  |
 
